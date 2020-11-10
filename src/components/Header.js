@@ -1,15 +1,20 @@
 import React from 'react'
 import { Navbar, Nav, Button } from 'react-bootstrap'
 import LOGO from '../images/logo.svg'
-import style from './styles/header.module.css'
 import { Link } from 'gatsby'
 
 export default function Header() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar
+            collapseOnSelect
+            expand="lg"
+            bg="light"
+            variant="light"
+            className="fixed-top"
+        >
             <Navbar.Brand>
                 <Link to="/">
-                    <img src={LOGO} alt="logo" className={style.logoImage} />
+                    <img src={LOGO} alt="logo" style={{ width: '95%' }} />
                 </Link>
             </Navbar.Brand>
 
@@ -28,7 +33,7 @@ export default function Header() {
                     </Nav.Item>
                     <Nav.Item>
                         <Link
-                            to="/about"
+                            to="/about/"
                             className="nav-link"
                             activeClassName="active"
                         >
@@ -37,7 +42,7 @@ export default function Header() {
                     </Nav.Item>
                     <Nav.Item>
                         <Link
-                            to="/contact"
+                            to="/contact/"
                             className="nav-link"
                             activeClassName="active"
                         >
