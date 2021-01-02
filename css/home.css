@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #272727;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  padding: 40px 0;
+  width: 13rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.card-section {
+  width: 100%;
+  background: #272727;
+  -webkit-box-shadow: -9px 9px 18px rgba(23, 23, 23, 0.2), 9px -9px 18px rgba(23, 23, 23, 0.2), -9px -9px 18px rgba(55, 55, 55, 0.9), 9px 9px 23px rgba(23, 23, 23, 0.9), inset 1px 1px 2px rgba(55, 55, 55, 0.3), inset -1px -1px 2px rgba(23, 23, 23, 0.5);
+          box-shadow: -9px 9px 18px rgba(23, 23, 23, 0.2), 9px -9px 18px rgba(23, 23, 23, 0.2), -9px -9px 18px rgba(55, 55, 55, 0.9), 9px 9px 23px rgba(23, 23, 23, 0.9), inset 1px 1px 2px rgba(55, 55, 55, 0.3), inset -1px -1px 2px rgba(23, 23, 23, 0.5);
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 28px;
+}
+
+.card-section > h1 {
+  color: #939393;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.card-section > img {
+  width: 18rem;
+}
+
+.card-section > input {
+  background: #272727;
+  -webkit-box-shadow: 1px 1px 2px rgba(58, 58, 58, 0.3), -1px -1px 2px rgba(20, 20, 20, 0.5), inset -5px 5px 10px rgba(20, 20, 20, 0.2), inset 5px -5px 10px rgba(20, 20, 20, 0.2), inset -5px -5px 10px rgba(58, 58, 58, 0.9), inset 5px 5px 13px rgba(20, 20, 20, 0.9);
+          box-shadow: 1px 1px 2px rgba(58, 58, 58, 0.3), -1px -1px 2px rgba(20, 20, 20, 0.5), inset -5px 5px 10px rgba(20, 20, 20, 0.2), inset 5px -5px 10px rgba(20, 20, 20, 0.2), inset -5px -5px 10px rgba(58, 58, 58, 0.9), inset 5px 5px 13px rgba(20, 20, 20, 0.9);
+  border-radius: 98px;
+  color: #f6ffc0;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.card-section > input:focus {
+  outline: none;
+}
+
+.card-section > input::-webkit-input-placeholder {
+  color: #595959;
+}
+
+.card-section > input:-ms-input-placeholder {
+  color: #595959;
+}
+
+.card-section > input::-ms-input-placeholder {
+  color: #595959;
+}
+
+.card-section > input::placeholder {
+  color: #595959;
+}
+/*# sourceMappingURL=home.css.map */
