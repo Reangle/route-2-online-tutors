@@ -1,0 +1,18 @@
+[
+    {
+        "user": "abc",
+        "password": "rootABC"
+    },
+    {
+        "user": "def",
+        "password": "rootDEF"
+    },
+    {
+        "user": "xyz",
+        "password": "rootXYZ"
+    },
+    {
+        "user": "pqr",
+        "password": "rootPQR"
+    }
+]
